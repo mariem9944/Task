@@ -7,16 +7,16 @@ String letter=null;
             if (marks >= 0 && marks <= 59) {
                 letter="F";
             }
-            else if (marks >= 60 && marks >= 69) {
-                letter='D';
+            else if (marks >= 60 && marks <= 69) {
+                letter="D";
             }
-            else if (marks >= 70 && marks < 79) {
-            
+            else if (marks >= 70 && marks <= 79) {
+            letter="C";
             }
-            else if (marks >= 80 || marks <= 89) {
+            else if (marks >= 80 && marks <= 89) {
                 letter="B";
             }
-            else if (mark > 90 && marks <= 100) {
+            else if (marks >= 90 && marks <= 100) {
                 letter="A";
             }
 return letter;
